@@ -4,6 +4,9 @@
 pincher_solenoid_id: 6
 pincher_solenoid_actuation_delay: 0.150
 
+lift_solenoid_id: 7
+lift_solenoid_actuation_delay: 0.150
+
 ####################################################
 ## END SOLENOID CONFIGS
 ####################################################

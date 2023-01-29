@@ -4,6 +4,8 @@
 # Buttons
 operator_pinch_button_id: 0
 operator_unpinch_button_id: 1
+lower_intake_button_id: 2
+raise_intake_button_id: 3
 operator_outtake_button_id: 4
 operator_intake_button_id: 5
 party_mode_button_id: 7

@@ -5,7 +5,7 @@ git@github.com:frcteam195/ck_utilities_node.git
 git@github.com:frcteam195/ck_utilities_py_node.git
 git@github.com:frcteam195/field_element_publisher_2023_node.git
 git@github.com:frcteam195/network_tables_node.git
-git@github.com:frcteam195/hmi_agent_2023_node.git
+git@github.com:frcteam195/hmi_agent_practice_2023_node.git
 git@github.com:frcteam195/logger_node.git
 git@github.com:frcteam195/frc_robot_utilities_node.git
 git@github.com:frcteam195/frc_robot_utilities_py_node.git
@@ -17,7 +17,7 @@ git@github.com:frcteam195/trajectories_2023.git
 git@github.com:frcteam195/led_control_2023_node.git
 git@github.com:frcteam195/health_monitor_2023_node.git
 git@github.com:frcteam195/arm_2023_node.git
-git@github.com:frcteam195/intake_2023_node.git
+git@github.com:frcteam195/intake_practice_2023_node.git
 git@github.com:frcteam195/autonomous_2023_node.git
 git@github.com:frcteam195/trajectory_generator_node.git
 git@github.com:frcteam195/actions_2023_node.git
