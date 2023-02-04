@@ -1,13 +1,14 @@
 # Axes
+operator_outtake_axis_id: 2
+operator_intake_axis_id: 3
 
+activation_threshold: 0.2
 
 # Buttons
-operator_pinch_button_id: 0
-operator_unpinch_button_id: 1
-lower_intake_button_id: 2
-raise_intake_button_id: 3
-operator_outtake_button_id: 4
-operator_intake_button_id: 5
+lower_intake_button_id: 0
+raise_intake_button_id: 1
+operator_pinch_button_id: 4
+operator_unpinch_button_id: 5
 party_mode_button_id: 7
 
 # POV
