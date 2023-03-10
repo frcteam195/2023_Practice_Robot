@@ -142,14 +142,14 @@ odom1_config: [false,  false,  false,
               false,  false,  false,
               false,  false,  false]
 odom1_nodelay: true
-odom1_differential: true
-odom1_relative: false
+odom1_differential: false
+odom1_relative: true
 odom1_queue_size: 100
 
 # Further input parameter examples
 odom2: /LimelightOdometry
 odom2_config: [true,  true,  false,
-               false, false, true,
+               false, false, false,
                false, false, false,
                false, false, false,
                false, false, false]
@@ -170,16 +170,16 @@ odom3_relative: false
 odom3_queue_size: 100
 odom3_nodelay: true
 
-odom4: /RobotIMURate
-odom4_config: [false,  false,  false,
-              false,  false,  false,
-              false,  false,  false,
-              false,  false,  true,
-              false,  false,  false]
-odom4_nodelay: true
-odom4_differential: false
-odom4_relative: false
-odom4_queue_size: 100
+# odom4: /RobotIMURate
+# odom4_config: [false,  false,  false,
+#               false,  false,  false,
+#               false,  false,  false,
+#               false,  false,  true,
+#               false,  false,  false]
+# odom4_nodelay: true
+# odom4_differential: false
+# odom4_relative: false
+# odom4_queue_size: 100
 
 # imu0: /RobotIMU
 # imu0_config: [false,  false,  false,
@@ -285,3 +285,5 @@ kappa: 0
 # [ADVANCED, UKF ONLY] The beta variable relates to the distribution of the state vector. Again, it's probably best to
 # leave this alone if you're uncertain. Defaults to 2 if unspecified.
 beta: 2
+
+publish_tf: False

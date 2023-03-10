@@ -1,15 +1,43 @@
 # Axes
-operator_outtake_axis_id: 2
-operator_intake_axis_id: 3
+outtake_axis_id: 2
+intake_axis_id: 3
 
-activation_threshold: 0.2
+activation_threshold: 0.1
 
 # Buttons
-lower_intake_button_id: 0
-raise_intake_button_id: 1
-operator_pinch_button_id: 4
-operator_unpinch_button_id: 5
+ground_intake_button_id: 0
+hybrid_node_button_id: 1
+mid_node_button_id: 10 #should be 2
+high_node_button_id: 3
+
+operator_unpinch_button_id: 4
+operator_pinch_button_id: 5
+
+in_bot_button_id: 6
 party_mode_button_id: 7
+#wrist_left_90_button_id: 8
+#wrist_straight_button_id: 9
+#wrist_left_180_button_id: 2
 
 # POV
 led_control_pov_id: 0
+
+# 0-a
+# 1-b
+# 2-x
+# 3-y
+# 4-lb
+# 5-rb
+# 6-2boxbtn
+# 7-menubtn
+
+# Trigger/axes
+# 0-lx
+# 1-ly
+# 2-lt
+# 3-rt
+# 4-rx
+# 5-ry
+
+#POV
+#id 0
