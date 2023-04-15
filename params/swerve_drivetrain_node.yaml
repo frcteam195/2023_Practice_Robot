@@ -9,16 +9,16 @@ robot_wheel_inches_from_center_x: [9.375, 9.375, -9.375, -9.375]
 robot_wheel_inches_from_center_y: [9.375, -9.375, 9.375, -9.375]
 robot_max_fwd_vel: 4.0 #m/s
 robot_teleop_max_fwd_vel: 4.5 #m/s
-robot_max_fwd_accel: 10.0 #m/s^2
-robot_max_fwd_decel: 4.0 #m/s^2
+robot_max_fwd_accel: 2.54 #m/s^2
+robot_max_fwd_decel: 3.0 #m/s^2
 # robot_max_fwd_accel: 1.5 #m/s^2
 # robot_max_fwd_decel: 1.5 #m/s^2
 quattro_decel: 20.0 #m/s^2
 robot_max_ang_vel: 8.0 #rad/s
-robot_max_fwd_vel_mult: 0.9
+robot_max_fwd_vel_mult: 0.85
 
 default_cook_mps: 0.4
-default_serve_mps: 0.8
+default_serve_mps: 0.3
 
 motor_type: 0    #0 = TalonFX, 1 = TalonSRX
 voltage_comp_saturation: 12.0   #Saturation voltage
@@ -27,7 +27,7 @@ voltage_comp_enabled: true    #Voltage compensation enabled
 brake_mode_default: false
 
 # wheel_diameter_inches: 4.0025
-wheel_diameter_inches: 3.9
+wheel_diameter_inches: 3.8840425532
 robot_track_width_inches: 25.625
 robot_track_length_inches: 25.625
 robot_linear_inertia: 68  #Linear inertia = Weight in kg
